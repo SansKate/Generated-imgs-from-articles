@@ -1,18 +1,31 @@
 # Generated-imgs-from-articles
-This directory includes AI-generated images for all three articles from the ML Trial Task.
+# ML Trial Task - Image Generation from Articles
 
-Article1_Energy/ contains images for "The Global Energy Transition" article;
-carbon_politics_debate.png shows emotional climate debates at COP summits
-energy_poverty_solution.png depicts solar power solutions in African communities
+## Project Overview
+This project generates AI images based on three provided articles using Stable Diffusion. The task involved understanding article context and creating realistic, high-quality images that represent key themes from each article.
 
-Article2_Outputs/ contains images for "Youth Activism and Protests" article;
-digital_activism_youth.png shows young activists using technology for protests
-nepal_youth_victory.png depicts celebration after successful government change
+## Articles Processed
 
-Article3_Outputs/ contains images for "AI Revolution" article;
-ai_art_generation.png demonstrates AI image creation technology
-human_ai_collaboration.png shows people working with AI assistants
+### Article 1: "The Global Energy Transition"
+- **Theme**: Renewable energy, carbon politics, and climate solutions
+- **Generated Images**:
+  1. `carbon_politics_debate.png` - Climate negotiations at COP summit
+  2. `energy_poverty_solution.png` - Solar power in African communities
 
-All images were generated using Stable Diffusion v1.5 model based on the content
-and themes from the respective articles. The images represent key concepts
-mentioned in each article while maintaining high quality and realism as required.
+### Article 2: "Youth Activism and Protests"  
+- **Theme**: Youth-led movements and digital activism
+- **Generated Images**:
+  1. `digital_activism_youth.png` - Tech-savvy young protesters
+  2. `nepal_youth_victory.png` - Celebration after political change
+
+### Article 3: "AI Revolution"
+- **Theme**: Artificial intelligence impact and image generation
+- **Generated Images**:
+  1. `ai_art_generation.png` - AI creating digital art
+  2. `human_ai_collaboration.png` - People working with AI assistants
+
+## Technical Specifications
+
+### Requirements
+install-
+pip install torch diffusers transformers accelerate
